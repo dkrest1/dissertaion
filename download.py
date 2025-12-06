@@ -10,6 +10,7 @@ HEADERS = {"Authorization": f"token {TOKEN}"}
 
 df = pd.read_csv("workflow_runs.csv")
 
+# remove after
 os.makedirs("logs", exist_ok=True)
 
 for _, row in tqdm(df.iterrows(), total=len(df)):
