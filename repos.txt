@@ -1,0 +1,27 @@
+# Popular repositories to collect GitHub Actions failed run logs from
+# One entry per line in owner/repo format. Edit this list as needed.
+torvalds/linux
+microsoft/vscode
+facebook/react
+tensorflow/tensorflow
+pytorch/pytorch
+nodejs/node
+golang/go
+rust-lang/rust
+kubernetes/kubernetes
+docker/cli
+apple/swift
+django/django
+numpy/numpy
+scikit-learn/scikit-learn
+apache/spark
+elastic/elasticsearch
+microsoft/TypeScript
+ansible/ansible
+hashicorp/terraform
+ethereum/go-ethereum
+flutter/flutter
+keras-team/keras
+opencv/opencv
+redis/redis
+huggingface/transformers
