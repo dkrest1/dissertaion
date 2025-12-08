@@ -1,2 +1,11 @@
+# Ignore local GitHub token and environment files
+github_token.txt
 .env
-.g
+
+# Python virtual env
+.venv/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+.env

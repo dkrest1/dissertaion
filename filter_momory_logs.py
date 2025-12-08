@@ -1,11 +1,12 @@
 import os
 import gzip
 
-keywords = ["137", "killed", "oom", "out of memory"]
+keywords = ["137", "killed", "oom", "out of memory", "memory limit", "no memory"]
 
 memory_logs = []
 
-for root, dirs, files in os.walk("logs"):
+# Only search in failed logs directory
+for root, dirs, files in os.walk("logs_failure"):
     for file in files:
         if file.endswith(".txt") or file.endswith(".log"):
 
@@ -23,4 +24,5 @@ with open("memory_logs.txt", "w") as f:
     for log in memory_logs:
         f.write(log + "\n")
 
+print(f"Found {len(memory_logs)} logs with memory issues")
 print("Saved memory_logs.txt")
