@@ -1,5 +1,0 @@
-2025-12-07T15:17:14.0990000Z Requested labels: ubuntu-latest
-2025-12-07T15:17:14.0990000Z Job defined at: /dynamic/dependabot/dependabot-updates@refs/heads/master
-2025-12-07T15:17:14.0990000Z Waiting for a runner to pick up this job...
-2025-12-07T15:17:14.5970000Z Job is about to start running on the hosted runner: GitHub Actions 1000000002
-2025-12-07T15:17:14.5970000Z Job is waiting for a hosted runner to come online.

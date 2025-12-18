@@ -1,2 +1,0 @@
-logs_sample/torvalds_linux_20006236072/0_Dependabot.txt
-logs_sample/torvalds_linux_18363803288/0_Dependabot.txt

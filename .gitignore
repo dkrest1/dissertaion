@@ -1,11 +1,11 @@
-# Ignore local GitHub token and environment files
+# Ignore extracted logs and generated models
+logs_failure/
+logs_normal/
+downloaded_runs.txt
+failed_runs.txt
+workflow_runs.csv
+workflow_runs_all.csv
+*.joblib
+models/
+.env
 github_token.txt
-.env
-
-# Python virtual env
-.venv/
-
-# Byte-compiled / cache
-__pycache__/
-*.py[cod]
-.env
