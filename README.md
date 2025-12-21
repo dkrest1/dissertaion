@@ -1,4 +1,4 @@
-# Explainable Anomaly Detection in GitHub Actions Build Logs Using Isolation Forest
+# Explainable Anomaly Detection in GitHub Actions Build Logs (Memory Log Failure) Using Isolation Forest
 
 This repository contains scripts and utilities to collect GitHub Actions workflow run logs, extract and filter logs from failed builds, and prepare data for anomaly detection (planned using an Isolation Forest model). The goal is to detect and explain anomalous build failures — especially memory-related failures — to support an MRes dissertation project.
 

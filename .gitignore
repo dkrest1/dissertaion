@@ -9,3 +9,4 @@ workflow_runs_all.csv
 models/
 .env
 github_token.txt
+docs
